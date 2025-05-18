@@ -6,7 +6,7 @@
 
 A feature-rich Windows batch script that emulates a Linux terminal environment with no dependencies required. Perfect for learning Linux commands or when you need a quick Linux-like experience on Windows.
 
-## Features
+##  Features
 
 - **Real Linux Terminal Experience** with familiar prompt style (`user@host:path$`)
 - **Sudo Support** with password protection (default: "password")
@@ -17,7 +17,7 @@ A feature-rich Windows batch script that emulates a Linux terminal environment w
 - **File Operations** (`ls`, `cat`, `touch`, `rm`, etc.)
 - **System Monitoring** (`ps`, `df`, `free`)
 
-## Supported Commands
+##  Supported Commands
 
 | Category       | Commands                                                                 |
 |----------------|--------------------------------------------------------------------------|
@@ -27,13 +27,19 @@ A feature-rich Windows batch script that emulates a Linux terminal environment w
 | **Admin**       | `sudo`, `su`, `exit sudo`                                               |
 | **Utilities**   | `clear`, `help`, `exit`, `echo`                                         |
 
-## Getting Started
+##  Getting Started
 
-1. **Download** the linux-cmd.bat from releases.
+1. **Download** the script:
+   ```bash
+   curl -O https://github.com/planbcode12/linuxcmd/releases/download/v2.0/linux-cmd.bat
+   ```
 
-2. **Run** the linux-cmd.bat
-  
-4. **Start using** Linux commands:
+2. **Run** the terminal:
+   ```bash
+   linux_terminal.bat
+   ```
+
+3. **Start using** Linux commands:
    ```bash
    user@PCNAME:~$ sudo mkdir /test
    [sudo] password for user: 
@@ -41,7 +47,7 @@ A feature-rich Windows batch script that emulates a Linux terminal environment w
    test
    ```
 
-## Customization
+##  Customization
 
 Edit these variables at the top of the script:
 
@@ -51,7 +57,7 @@ set PROMPT_USER=%USERNAME%  (Default username)
 set DEFAULT_SUDO_PASS=password  (Change default sudo password)
 ```
 
-## Command Examples
+##  Command Examples
 
 ```bash
 # Create and edit files
@@ -70,21 +76,21 @@ netstat -tulnp
 ping google.com
 ```
 
-## Limitations
+##  Limitations
 
 - Not all Linux commands are available
 - Some commands behave differently than real Linux
 - Limited to Windows CMD capabilities
 - No actual Linux kernel or filesystem
 
-## Contributing
+##  Contributing
 
 Contributions welcome! Please open an issue or PR for:
 - New command implementations
 - Bug fixes
 - Feature requests
 
-## License
+##  License
 
 MIT License - See [LICENSE](LICENSE) for details
 
