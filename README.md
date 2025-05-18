@@ -1,6 +1,6 @@
 # Linux Command Simulator for Windows
 
-![Batch File Logo](https://img.shields.io/badge/Platform-Windows-blue)(https://github.com/planbcode12/linuxcmd/blob/main/linux-cmd.bat) ![License](https://img.shields.io/badge/License-MIT-green)
+![Batch File Logo](https://img.shields.io/badge/Platform-Windows-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 A Windows batch file that simulates a Linux command-line environment without requiring any additional installations like WSL.
 
